@@ -1,23 +1,86 @@
 <!DOCTYPE html>
-<hmtl>
-
+<html>
   <head>
-    <link rel="sytleshhet" type="text/css" href="hw2.css">
-    <title>
-
-    </title>
-
-
-    <style>
-
-    </style>
-
+    <link rel="stylesheet" type"text/css" href="hw2.css">
+    <title>HW2 Static Website</title>
   </head>
 
   <body>
-    <h1>Testng</h1>
+    <div class="phone">
+      <div id="top"></div>
+      <div id="camera"></div>
+      <div id="earphone"></div>
+      <div id="middle"></div>
+      <div id="screen"></div>
+      <div id="bottom"></div>
+      <div id="button"></div>
+    </div>
+    <section>
+      <div id="energy">
+        <h1>My Energy</h1>
+      </div>
+      <div id="bar_chart">
+        <p>15 Mar 2018 - 21 Mar 2018</p>
+        <ul class="chart">
+          <li><span style="height:30%" title="M"></span></li>
+          <li><span style="height:70%" title="T"></span></li>
+          <li><span style="height:60%" title="W"></span></li>
+          <li><span style="height:60%" title="T"></span></li>
+          <li><span style="height:40%" title="F"></span></li>
+          <li><span style="height:70%" title="S"></span></li>
+          <li><span style="height:15%" title="S"></span></li>
+        </ul>
+        </div>
+      </div>
+      <div id="line_chart">
+        <p>Today</p>
+        <svg width="400px" height="110px">
+          <line x1="0px"   y1="100px" x2="50px"  y2="100px" stroke="#ffffff" stroke-width="2"/>
+          <line x1="50px"  y1="100px" x2="100px" y2="60px"  stroke="#ffffff" stroke-width="2"/>
+          <line x1="100px" y1="60px"  x2="150px" y2="50px"  stroke="#ffffff" stroke-width="2"/>
+          <line x1="150px" y1="50px"  x2="200px" y2="80px"  stroke="#ffffff" stroke-width="2"/>
+          <line x1="200px" y1="80px"  x2="250px" y2="20px"  stroke="#ffffff" stroke-width="2"/>
+          <line x1="250px" y1="20px"  x2="300px" y2="40px"  stroke="#ffffff" stroke-width="2"/>
+          <line x1="300px" y1="40px"  x2="350px" y2="100px" stroke="#ffffff" stroke-width="2"/>
+          <line x1="350px" y1="100px" x2="400px" y2="100px" stroke="#ffffff" stroke-width="2"/>
+          <circle cx="50px"  cy="100px" r="3px" stroke="#ffffff" fill="#ffffff"/>
+          <circle cx="100px" cy="60px"  r="3px" stroke="#ffffff" fill="#ffffff"/>
+          <circle cx="150px" cy="50px"  r="3px" stroke="#ffffff" fill="#ffffff"/>
+          <circle cx="200px" cy="80px"  r="3px" stroke="#ffffff" fill="#ffffff"/>
+          <circle cx="250px" cy="20px"  r="3px" stroke="#ffffff" fill="#ffffff"/>
+          <circle cx="300px" cy="40px"  r="3px" stroke="#ffffff" fill="#ffffff"/>
+          <circle cx="350px" cy="100px" r="3px" stroke="#ffffff" fill="#ffffff"/>
+        </svg>
+        <ul class="time">
+          <li> 9 am</li>
+          <li>10 am</li>
+          <li>11 am</li>
+          <li>12 pm</li>
+          <li> 1 pm</li>
+          <li> 2 pm</li>
+          <li> 3 pm</li>
+        </ul>
+      </div>
+      <div id="schedule">
+        <p>Schedule</p>
+        <div id="circle"></div>
+        <pre>11:00 PM                 147 Calories Biking</pre>
+        <div id="circle"></div>
+        <pre>10:00 PM                  90 Calories Walking</pre>
+        <div id="circle"></div>
+        <pre>  5:00 PM                213 Calories Jogging</pre>
+        <div id="time_line"></div>
+      </div>
+      <div id="article">
+        <p>Selected Article</p>
+        <br>
+        <p>The mobile industry has flourished in recent years by delivering faster network speeds to the billions of phones and tablets now in consumers’ hands. But for future growth to continue at the same pace - and bring billions of more devices online - telecom engineers need to solve a new challenge: energy efficiency.</p>
+        <p>Mobile handsets themselves have a relatively small energy footprint - using a mobile phone for a year has the same emissions as driving an average European car for an hour. But that phone connects to a sprawling infrastructure that uses - and often wastes - massive amounts of electricity. Information technology and communications consume about 2% of the world’s energy, or roughly the same as the airline industry, and mobile networking represents between one half and one quarter of that total, according to industry consortium GreenTouch.</p>
+        <p>To address growing energy use, a number of companies are developing new technologies geared at efficiency. One of those efforts was hatched in the labs of the Massachusetts Institute of Technology (MIT), where two professors developed hardware to slash the amount of energy used by mobile phones and cellular network towers. They co-founded a company called Eta Devices that sells what is effectively an electronic gearbox that can switch between different power modes to save energy.</p>
+        <p>Inside all wireless phone towers and mobile handsets is a piece of equipment called a power amplifier that converts electricity into a radio signal. The problem is that only about one third of the power pumped into mobile base stations is actually used to transmit data, while the rest is wasted as heat. Mobile phones, meanwhile, burn through their battery life and heat up for the same reason - inefficient power electronics.</p>
+        <p>Using advances in semiconductors for digital mobile networks, Eta Devices can improve power amplifier efficiency to 70%, says CEO Mattias Astrom, a mobile industry veteran who joined the two MIT professors - Joel Dawson and David Perrault - to start the company.</p>
+      </div>  
+    </section>
   </body>
-
 </html>
-
 
