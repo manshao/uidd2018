@@ -33,7 +33,7 @@ body
   left: 5vw;
   top: 5vh;
   float: left;
-  opacity: 0; /*fixed*/
+  opacity: 1;
   z-index: 1;
 }
 
