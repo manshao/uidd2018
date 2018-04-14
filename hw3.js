@@ -1,5 +1,5 @@
 // introduction animate
-/*
+
 for(var shine = 1; shine < 10; shine++)
 {
   if(shine < 3){
@@ -42,7 +42,7 @@ for(var shine = 1; shine < 10; shine++)
     $("#wheel").animate({opacity:'0'},1000);
   }
 }
-*/
+
 
 // background 
 
