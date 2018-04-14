@@ -3,7 +3,7 @@
 for(var shine = 1; shine < 10; shine++)
 {
   if(shine < 3){
-    $("#intro").animate({width:'90vw'},2000);
+    $("#intro").animate({opacity:'1'},2000);
     $("#button_right").animate({opacity:'0'},2000);
     $("#wheel").animate({opacity:'0'},2000);
     if(shine%2 == 0)
