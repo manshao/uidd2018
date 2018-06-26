@@ -14,7 +14,7 @@ function story_back_click(){
 
 function story_click(){
 	var story_page = document.getElementById('story');
-	story_page.addEventListener('touchstart',function(event){
+	story_page.addEventListener('touchend',function(event){
 		event.preventDefault();
 		var story_target = event.target.id;
 		var story_target_slice = story_target.slice(-2);
